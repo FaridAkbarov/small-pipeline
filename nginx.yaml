@@ -16,7 +16,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: nginx
+      - image: docker-registry:5000/bilal/notification-management:v1
         name: mynginx
 
 ---
